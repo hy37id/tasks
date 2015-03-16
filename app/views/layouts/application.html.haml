@@ -13,3 +13,6 @@
     %main{:role => "main"}
       = render 'layouts/messages'
       = yield
+    %footer
+      %p#info-text
+        = link_to "Tasks", root_path
